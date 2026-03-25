@@ -1,8 +1,4 @@
-import {
-  Injectable,
-  NotFoundException,
-  InternalServerErrorException,
-} from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
 import { Product } from './product.interface';
 import * as fs from 'fs';
 import * as path from 'path';

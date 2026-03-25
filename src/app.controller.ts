@@ -7,11 +7,11 @@ export class AppController {
 
   @Get()
   getHello() {
-  const result = this.appService.getHello();
-  return {
-    succes: true,
-    data: result,
-    message: 'Hello NestJS'
-};
-}
+    const result = this.appService.getHello();
+    return {
+      succes: true,
+      data: result,
+      message: 'Hello NestJS',
+    };
+  }
 }
