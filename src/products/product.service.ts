@@ -11,5 +11,5 @@ export class ProductService {
     const rawData = fs.readFileSync(this.dataPath, 'utf-8');
     const users = JSON.parse(rawData) as Product[];
     return users;
-}
+  }
 }
