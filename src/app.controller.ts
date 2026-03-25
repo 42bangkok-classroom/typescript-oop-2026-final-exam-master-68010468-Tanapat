@@ -8,6 +8,7 @@ export class AppController {
   @Get()
   getHello() {
     const result = this.appService.getHello();
+
     return {
       success: true,
       data: 0,
