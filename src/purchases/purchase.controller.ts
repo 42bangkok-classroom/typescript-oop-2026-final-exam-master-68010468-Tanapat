@@ -9,7 +9,7 @@ export class PurchaseController {
   findall() {
     const result = this.purchaseService.findAll();
     return {
-      succes: true,
+      success: true,
       data: result,
       message: 'Fetched products successfully',
     };
